@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1e3a8a; /* blue-900 */
+  --color-secondary: #f59e0b; /* amber-500 */
+  --color-accent: #3b82f6; /* blue-500 */
+  --color-bg-light: #f8fafc; /* slate-50 */
+  --color-text-dark: #0f172a; /* slate-900 */
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
